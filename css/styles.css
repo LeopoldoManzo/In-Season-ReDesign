@@ -1,0 +1,28 @@
+body{
+    background-color:lightgray;
+}
+
+.homeHero{
+    background-image: url("../Images/homeHero.jpeg");
+    padding-bottom: 42%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.whatWeProvideText{
+    display:flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: green;
+    font-size: xx-large;
+}
+
+.imgCarasel {
+    height: 70vh;
+
+  }
+  .list-group-item{
+      background-color: transparent;
+  }
