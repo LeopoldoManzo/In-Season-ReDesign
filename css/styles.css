@@ -1,5 +1,16 @@
+.navFootBG{
+  background-color: #82A22C;
+
+}
+.nav-link{
+  color:black;
+  display: inline-block;
+  text-align: center;
+}
+
 body{
     background-color:#F0ECE9;
+    padding-top: 7rem;
 }
 
 .homeHero{
@@ -9,13 +20,14 @@ body{
     display: flex;
     background-size: cover;
     overflow: hidden;
+    
 }
 
 .whatWeProvideText{
     display:flex;
     justify-content: center;
     border-style: solid;
-    border-color: green;
+    border-color: #82A22C;
     font-size: xx-large;
 }
 
@@ -43,6 +55,11 @@ body{
   width: 50%;
   height: 60%;  
   background: white;
-  opacity: 0.9;
-}    
+  opacity: .95;
+}   
+
+.indexFormat{
+  padding-left: 8%;
+  padding-right: 8%;
+}
 
