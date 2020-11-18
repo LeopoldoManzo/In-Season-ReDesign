@@ -1,0 +1,65 @@
+.navFootBG{
+  background-color: #82A22C;
+
+}
+.nav-link{
+  color:black;
+  display: inline-block;
+  text-align: center;
+}
+
+body{
+    background-color:#F0ECE9;
+    padding-top: 7rem;
+}
+
+.homeHero{
+    background-image: url("../Images/homeHero.jpeg");
+    padding-bottom: 42%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.whatWeProvideText{
+    display:flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: #82A22C;
+    font-size: xx-large;
+}
+
+.imgCarasel {
+    height: 70vh;
+
+  }
+  
+  
+.list-group-item{
+      background-color: transparent;
+}
+
+
+.heroImage{
+  height: 540px;
+  background-image: url("../Images/homeDaisys.png");
+  background-size: cover;
+  background-repeat: no-repeat;    
+  background-position: center;
+  display:flex;
+  text-align: center;
+}
+.heroTextBG{
+  width: 50%;
+  height: 60%;  
+  background: white;
+  opacity: .95;
+}   
+
+.indexFormat{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
