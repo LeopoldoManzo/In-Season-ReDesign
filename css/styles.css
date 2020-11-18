@@ -22,14 +22,16 @@ body{
     overflow: hidden;
     
 }
-
-.whatWeProvideText{
-    display:flex;
-    justify-content: center;
-    border-style: solid;
-    border-color: #82A22C;
-    font-size: xx-large;
+.aboutHero{
+  background-image: url("../Images/aboutEricJulie.jpg");
+  padding-bottom: 30%;
+  max-width: 100%;
+  display: flex;
+  background-size: cover;
+  overflow: hidden;
+  
 }
+
 
 .imgCarasel {
     height: 70vh;
@@ -61,5 +63,56 @@ body{
 .indexFormat{
   padding-left: 8%;
   padding-right: 8%;
+}
+
+
+
+
+
+
+/*Fonts*/
+
+.whiteyFont{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.headerFonts{
+  font-family: 'Mitchaella', regular;
+  color:black;
+}
+@font-face{
+  font-family: 'Mitchaella', regular;
+  src: url(../fonts/Mitchaella\ Modern\ Free.ttf);
+  font-style:normal;
+  font-weight:100;
+}
+
+
+
+
+
+
+
+
+
+
+/*Text Size*/
+
+.whatWeProvideText{
+  display:flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: #82A22C;
+  font-size: xx-large;
+  font-family: 'Mitchaella';
+  font-size:35px;
+}
+
+.bios{
+  font-size:25px;
+}
+
+.lists{
+  font-size:20px;
 }
 
