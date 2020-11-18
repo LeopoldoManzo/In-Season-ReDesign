@@ -1,5 +1,5 @@
 body{
-    background-color:lightgray;
+    background-color:#F0ECE9;
 }
 
 .homeHero{
@@ -23,6 +23,26 @@ body{
     height: 70vh;
 
   }
-  .list-group-item{
+  
+  
+.list-group-item{
       background-color: transparent;
-  }
+}
+
+
+.heroImage{
+  height: 540px;
+  background-image: url("../Images/homeDaisys.png");
+  background-size: cover;
+  background-repeat: no-repeat;    
+  background-position: center;
+  display:flex;
+  text-align: center;
+}
+.heroTextBG{
+  width: 50%;
+  height: 60%;  
+  background: white;
+  opacity: 0.9;
+}    
+
